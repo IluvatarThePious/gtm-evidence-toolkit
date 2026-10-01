@@ -1,0 +1,8 @@
+{
+  "description": "Entirely fictional assumptions in USD. All people, costs and rates are illustrative, not customer observations.",
+  "scenarios": [
+    {"name": "Conservative", "inputs": {"people": 10, "hours_per_week": 4, "weeks_per_year": 48, "hourly_cost": 60, "time_reduction": 0.3, "adoption": 0.5, "realization": 0.2, "annual_cost": 12000, "setup_cost": 3000}},
+    {"name": "Base", "inputs": {"people": 10, "hours_per_week": 4, "weeks_per_year": 48, "hourly_cost": 60, "time_reduction": 0.5, "adoption": 0.75, "realization": 0.4, "annual_cost": 12000, "setup_cost": 3000}},
+    {"name": "Upside", "inputs": {"people": 10, "hours_per_week": 4, "weeks_per_year": 48, "hourly_cost": 60, "time_reduction": 0.6, "adoption": 0.9, "realization": 0.6, "annual_cost": 12000, "setup_cost": 3000}}
+  ]
+}

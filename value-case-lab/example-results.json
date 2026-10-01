@@ -1,0 +1,41 @@
+{
+  "status": "illustrative assumptions; not measured savings",
+  "scenarios": [
+    {
+      "name": "Conservative",
+      "result": {
+        "annual_capacity_hours": 288.0,
+        "annual_capacity_value": 17280.0,
+        "modeled_annual_financial_benefit": 3456.0,
+        "year_one_cost": 15000.0,
+        "year_one_net_value": -11544.0,
+        "year_one_roi_percent": -76.96,
+        "steady_state_payback_months": null
+      }
+    },
+    {
+      "name": "Base",
+      "result": {
+        "annual_capacity_hours": 720.0,
+        "annual_capacity_value": 43200.0,
+        "modeled_annual_financial_benefit": 17280.0,
+        "year_one_cost": 15000.0,
+        "year_one_net_value": 2280.0,
+        "year_one_roi_percent": 15.2,
+        "steady_state_payback_months": 6.82
+      }
+    },
+    {
+      "name": "Upside",
+      "result": {
+        "annual_capacity_hours": 1036.8,
+        "annual_capacity_value": 62208.0,
+        "modeled_annual_financial_benefit": 37324.8,
+        "year_one_cost": 15000.0,
+        "year_one_net_value": 22324.8,
+        "year_one_roi_percent": 148.83,
+        "steady_state_payback_months": 1.42
+      }
+    }
+  ]
+}
