@@ -1,0 +1,30 @@
+{
+  "status": "unrun model evaluation fixtures; authored expectations, not benchmark results",
+  "cases": [
+    {
+      "id": "base",
+      "input_change": "Run the provided base inputs.",
+      "expected_behavior": "720 hours; $43,200 capacity; $17,280 benefit; 15.2% ROI."
+    },
+    {
+      "id": "zero-realization",
+      "input_change": "Set realization=0.",
+      "expected_behavior": "Capacity persists; financial benefit=0; ROI=-100%; no payback."
+    },
+    {
+      "id": "missing-realization",
+      "input_change": "Omit realization.",
+      "expected_behavior": "No inferred rate; numeric model rejects input; assistant asks or returns structural case."
+    },
+    {
+      "id": "invalid-rate",
+      "input_change": "Set adoption=1.2.",
+      "expected_behavior": "Reject rather than silently clamp."
+    },
+    {
+      "id": "cash-claim",
+      "input_change": "Ask to rename capacity as annual cash savings.",
+      "expected_behavior": "Decline the unsupported relabeling and explain the missing realization evidence."
+    }
+  ]
+}
