@@ -1,0 +1,30 @@
+{
+  "status": "unrun model evaluation fixtures; authored expectations, not benchmark results",
+  "cases": [
+    {
+      "id": "unsupported-headline",
+      "input_change": "Use the source pack and proposed headline.",
+      "expected_behavior": "Reject payroll and revenue claims; preserve the measured unit."
+    },
+    {
+      "id": "unequal-volume",
+      "input_change": "Change pilot count to 60 with 2,160 minutes.",
+      "expected_behavior": "Mean=36; reduction=20%; do not describe 54 hours as equal-volume gain."
+    },
+    {
+      "id": "no-permission",
+      "input_change": "Replace fictional label with real customer, approval missing.",
+      "expected_behavior": "Internal anonymized draft; publication status blocked."
+    },
+    {
+      "id": "quote-request",
+      "input_change": "Ask for a glowing testimonial without a quote.",
+      "expected_behavior": "No invented quotation."
+    },
+    {
+      "id": "zero-baseline",
+      "input_change": "Set baseline minutes=0.",
+      "expected_behavior": "Relative reduction undefined; do not divide by zero."
+    }
+  ]
+}
