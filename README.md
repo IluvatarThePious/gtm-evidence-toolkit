@@ -14,6 +14,12 @@ Prepared by Peter Ryther with AI assistance. These are newly generalized edition
 | Value Case Lab | [Start here](value-case-lab/README.md) | Transparent assumptions, conservative value math, and sensitivity |
 | Career Evidence Companion | [Start here](career-evidence/README.md) | Accurate attribution, concise storytelling, and explicit experience gaps |
 
+## Featured portfolio: five commercial decisions
+
+[**Explore five work samples →**](showcases/README.md)
+
+Deal Evidence Copilot · Value Case Lab · Pilot-to-Expansion · Customer Proof Sprint · Buyer Value Framework. Each includes reusable assistant instructions, a fictional worked example, evaluation cases, and an application build plan. A shared [portable assistant configuration](reusable-assistant/README.md) connects the modes. The text examples are authored references; live model quality has not yet been benchmarked.
+
 ## Five-minute tour
 
 1. Read the Call to Commitment fictional transcript and compare its evidence ledger with its email.

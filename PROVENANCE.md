@@ -11,3 +11,6 @@ Prepared October 1, 2026.
 The original concepts and task direction came from Peter's work. AI assisted analysis, generalization, implementation and documentation. The release does not establish sole authorship of underlying general business methods, customer adoption, or independently verified business impact.
 
 No source conversation, knowledge attachment or employer template is reproduced. Original GPT configurations remain separate. All named organizations and people in the examples are fictional placeholders. The calculator is newly implemented for this package, not recovered production code.
+
+## November 3 extension
+See [five-showcase provenance](showcases/PROVENANCE.md) for the new modules, fixtures, and pilot decision checker. The original three workflows remain available.
