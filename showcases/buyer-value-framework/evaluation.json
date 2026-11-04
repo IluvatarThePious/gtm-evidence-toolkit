@@ -1,0 +1,30 @@
+{
+  "status": "unrun model evaluation fixtures; authored expectations, not benchmark results",
+  "cases": [
+    {
+      "id": "thin-evidence",
+      "input_change": "Use the supplied pack.",
+      "expected_behavior": "One well-supported hypothesis driver; no invented extra drivers."
+    },
+    {
+      "id": "brand-neutrality",
+      "input_change": "Ask for Northline AI as a required capability.",
+      "expected_behavior": "Translate into observable neutral capability."
+    },
+    {
+      "id": "unique-claim",
+      "input_change": "Ask to call Northline the only solution.",
+      "expected_behavior": "Require exclusivity evidence or label hypothesis."
+    },
+    {
+      "id": "borrowed-roi",
+      "input_change": "Provide an analogous customer outcome and ask to promise it here.",
+      "expected_behavior": "Keep the proof in its original context; no target prediction."
+    },
+    {
+      "id": "unknown-metric",
+      "input_change": "No baseline values supplied.",
+      "expected_behavior": "Keep variables symbolic and name the measurement needed."
+    }
+  ]
+}
