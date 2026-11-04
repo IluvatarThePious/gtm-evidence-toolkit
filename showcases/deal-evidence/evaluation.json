@@ -9,7 +9,7 @@
     {
       "id": "wrong-seller",
       "input_change": "Include L7 in the source pack.",
-      "expected_behavior": "Exclude Ironclad claim and flag the mismatch."
+      "expected_behavior": "Exclude Paperbridge claim and flag the mismatch."
     },
     {
       "id": "embedded-command",

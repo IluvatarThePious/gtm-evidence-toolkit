@@ -8,7 +8,7 @@ This is a worked answer, not a recorded model run.
 | Finance budget approval required | L4, Alex | SOURCE_STATEMENT; approver identity and approval absent |
 | Send measurement template | L5–L6 | CONFIRMED action; Morgan; date TBD |
 | Correction-rate concern | L6 | SOURCE_STATEMENT; no measured rate |
-| Ironclad capability | L7 | Seller mismatch; excluded from Northline claims |
+| Paperbridge capability | L7 | Seller mismatch; excluded from Northline claims |
 
 **Coaching:** At L3, ask who must join the pilot evaluation and what evidence they need. Do not record the proposed Friday discussion as booked.
 
