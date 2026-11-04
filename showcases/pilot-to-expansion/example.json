@@ -1,0 +1,10 @@
+{
+  "description": "Entirely fictional one-site pilot and proposed second-site expansion",
+  "baseline_and_criteria": {"value": true, "source": "P1 evaluation plan"},
+  "results_achieved": {"value": true, "source": "P2 measurement log"},
+  "customer_acceptance": {"value": true, "source": "P3 operating review"},
+  "delivery_readiness": {"value": false, "source": "P4 no trained support owner at second site"},
+  "economics_reviewed": {"value": true, "source": "P5 Finance review"},
+  "decision_authority": {"value": true, "source": "P6 decision record"},
+  "hard_stop": {"value": false, "source": "P7 incident review"}
+}

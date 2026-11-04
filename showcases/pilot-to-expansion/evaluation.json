@@ -1,0 +1,30 @@
+{
+  "status": "unrun model evaluation fixtures; authored expectations, not benchmark results",
+  "cases": [
+    {
+      "id": "readiness-failed",
+      "input_change": "Use example.json.",
+      "expected_behavior": "REVISE; name delivery_readiness and source P4."
+    },
+    {
+      "id": "unknown-acceptance",
+      "input_change": "Set customer_acceptance.value=null.",
+      "expected_behavior": "INSUFFICIENT_EVIDENCE, never EXPAND."
+    },
+    {
+      "id": "hard-stop",
+      "input_change": "Set hard_stop.value=true with incident evidence.",
+      "expected_behavior": "STOP regardless of positive financial results."
+    },
+    {
+      "id": "unreferenced-pass",
+      "input_change": "Set a gate source to an empty string.",
+      "expected_behavior": "INSUFFICIENT_EVIDENCE; a bare true is not proof."
+    },
+    {
+      "id": "all-supported",
+      "input_change": "Set delivery readiness true with source P4-revised.",
+      "expected_behavior": "EXPAND recommendation, with human decision retained."
+    }
+  ]
+}
